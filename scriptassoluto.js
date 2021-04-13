@@ -96,3 +96,64 @@ for(var i = 0; i < 6; i++){
 }
 
 console.log(array);
+
+//JSnack 6
+
+//chiedo all'utente di inserire un numero
+
+var numero = parseInt(prompt("Inserisci un numero"));
+
+//creo variabile somma
+
+var somma = 0;
+
+//ciclo for da 1 al numero compreso
+
+for(i=1; i<=numero; i++){
+    
+    //controllo che i sia giusto
+    
+    //console.log(i);
+
+    somma += Math.pow(i,3);
+
+    console.log(somma);
+
+}
+
+//JSnack 7
+
+var potenza = 1;
+var numero = 0;
+
+while(potenza < 1000){
+    console.log(potenza);
+    potenza += Math.pow(2,numero)
+    numero = numero + 1;
+}
+
+//JSnack 8
+
+var numero = parseInt(prompt("Inserisci un numero"));
+var numero1 = 0;
+var numero2 = 0;
+var somma = 0;
+
+if(numero < 10){
+    console.log(numero);
+}else{
+
+    do{
+
+        somma += numero%10;
+        numero = Math.floor(numero/10);
+        
+    }while(numero > 0)
+
+}
+
+console.log(somma);
+
+//JSnack 9
+
+//JSnack 10
